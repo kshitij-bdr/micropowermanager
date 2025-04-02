@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div> 
     <widget
       :class="'col-sm-6 col-md-5'"
       :button-text="$tc('phrases.assignAppliance', 0)"
