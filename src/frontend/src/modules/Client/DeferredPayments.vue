@@ -40,19 +40,7 @@
               {{ moneyFormat(item.down_payment) }}
             </md-table-cell>
             <md-table-cell md-label="Rates" md-sort-by="rate_count">
-              {{ item.rate_count }}
-              /* 
-              - #606 - Enhancing functionality by commenting out the following section 
-  and implementing row click event instead of the eye button click event.
-              <div
-                :class="index === -999 ? 'text-danger' : 'text-success'"
-                style="cursor: pointer; display: inline-block"
-                @click="showDetails(index)"
-              >
-                <md-icon>remove_red_eye</md-icon>
-                {{ $tc("words.detail", 1) }}
-              </div>
-              */
+              {{ item.rate_count }}              
             </md-table-cell>
           </md-table-row>
         </md-table>
