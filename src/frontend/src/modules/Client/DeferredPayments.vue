@@ -1,5 +1,5 @@
 <template>
-  <div> 
+  <div>
     <widget
       :class="'col-sm-6 col-md-5'"
       :button-text="$tc('phrases.assignAppliance', 0)"
@@ -40,7 +40,7 @@
               {{ moneyFormat(item.down_payment) }}
             </md-table-cell>
             <md-table-cell md-label="Rates" md-sort-by="rate_count">
-              {{ item.rate_count }}              
+              {{ item.rate_count }}
             </md-table-cell>
           </md-table-row>
         </md-table>
